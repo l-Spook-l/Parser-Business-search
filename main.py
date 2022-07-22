@@ -3,12 +3,12 @@ import openpyxl
 import requests
 from bs4 import BeautifulSoup
 
+
 list_company = []
 list_company_address = []
 local_count_company = 0
 page = 0
 count_company = 0
-
 
 city_1 = "kharkov"
 city_2 = "dnepropetrovsk"
