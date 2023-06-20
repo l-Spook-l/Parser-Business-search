@@ -43,7 +43,7 @@ while True:
 
         sheet[f"A{count_company}"] = item_name
         sheet[f"B{count_company}"] = ' '.join(company_address.split())
-        book.save("Предприятия.xlsx")
+        book.save("Enterprises.xlsx")
 
     if local_count_company < 10:
         break
